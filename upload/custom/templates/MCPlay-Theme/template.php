@@ -1,5 +1,5 @@
 <?php
-class Bootstrap_Material_Design_Template extends TemplateBase {
+class MCPlay_Theme extends TemplateBase {
 	// Private variable to store language + user
 	private $_language, $_user, $_pages;
 
@@ -567,4 +567,4 @@ class Bootstrap_Material_Design_Template extends TemplateBase {
 	}
 }
 
-$template = new Bootstrap_Material_Design_Template($cache, $smarty, $language, $user, $pages);
+$template = new MCPlay_Theme($cache, $smarty, $language, $user, $pages);
