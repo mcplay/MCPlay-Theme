@@ -36,7 +36,7 @@ class Material extends TemplateBase {
 		$this->addCSSFiles(array(
 			'https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css' => array('integrity' => 'sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX', 'crossorigin' => 'anonymous'),
 			(defined('CONFIG_PATH') ? CONFIG_PATH : '') . '/core/assets/css/custom.css' => array(),
-			'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css' => array('integrity' => 'sha256-PF6MatZtiJ8/c9O9HQ8uSUXr++R9KBYu4gbNG5511WE=', 'crossorigin' => 'anonymous'),
+			'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css' => array(),
 			(defined('CONFIG_PATH') ? CONFIG_PATH : '') . '/core/assets/plugins/toastr/toastr.min.css' => array(),
 			(defined('CONFIG_PATH') ? CONFIG_PATH : '') . '/custom/templates/Bootstrap Material/css/custom.css' => array()
 		));
