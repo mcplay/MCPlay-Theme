@@ -1,5 +1,5 @@
 <?php
-class MCPlay_Theme extends TemplateBase {
+class Material extends TemplateBase {
 	// Private variable to store language + user
 	private $_language, $_user, $_pages;
 
@@ -12,7 +12,8 @@ class MCPlay_Theme extends TemplateBase {
 		parent::__construct(
 			'MCPlay-Theme',
 			'2.0.0-pr7',
-			'<a href="https://github.com/mcplay/" target="_blank">MCPlay</a>'
+			'2.0.0-pr7',
+			'<a href="https://gravitto.tk/" target="_blank">Gravitto</a>'
 		);
 
 		// Use Default Theme style + nav bg
@@ -567,4 +568,4 @@ class MCPlay_Theme extends TemplateBase {
 	}
 }
 
-$template = new MCPlay_Theme($cache, $smarty, $language, $user, $pages);
+$template = new Material($cache, $smarty, $language, $user, $pages);
