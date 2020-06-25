@@ -25,7 +25,11 @@
 	    {*Social media*}
 		{if !empty($SOCIAL_MEDIA_ICONS)}
 		  {foreach from=$SOCIAL_MEDIA_ICONS item=icon}
-		    <a href="{$icon.link}" target="_blank"><i id="social-{$icon.short}" class="fa fa-{$icon.long}-square fa-3x social"></i></a>
+          	{if $icon.long == "twitter" || $icon.long == "facebook" || $icon.long == "youtube"}
+		    	<a href="{$icon.link}" target="_blank"><i id="social-{$icon.short}" class="fab fa-{$icon.long}-square fa-3x social"></i></a>
+            {else}
+		    	<a href="{$icon.link}" target="_blank"><i id="social-{$icon.short}" class="fa fa-{$icon.long}-square fa-3x social"></i></a>
+            {/if}
 		  {/foreach}
 		{/if}
         <span class="float-md-right">
@@ -57,7 +61,7 @@
 			
 			<li class="nav-item">
 			  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-				&copy; {$SITE_NAME} {'Y'|date}
+				© {$SITE_NAME} {'Y'|date}
 			  </a>
 			  <div class="dropdown-menu" aria-labelledby="Preview">
 				<a class="dropdown-item" target="_blank" href="https://namelessmc.com/">Powered by NamelessMC</a>
