@@ -21,15 +21,15 @@ class Material extends TemplateBase {
 		if($cache->isCached('nav_style')){
 			$nav_style = $cache->retrieve('nav_style');
 		} else {
-			$nav_style = 'light';
-			$cache->store('nav_style', 'light');
+			$nav_style = 'dark';
+			$cache->store('nav_style', 'dark');
 		}
 
 		if($cache->isCached('nav_bg')){
 			$nav_bg = $cache->retrieve('nav_bg');
 		} else {
-			$nav_bg = 'light';
-			$cache->store('nav_bg', 'light');
+			$nav_bg = 'dark';
+			$cache->store('nav_bg', 'dark');
 		}
 
 		// Add any CSS files here
