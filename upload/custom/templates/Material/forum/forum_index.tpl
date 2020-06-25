@@ -95,15 +95,20 @@
 			<br />
 		  {/foreach}
 		</div>
+
 		<div class="col-md-3">
 		
-		  <form class="form-horizontal" role="form" method="post" action="{$SEARCH_URL}">
-		    <div class="input-group">
-			  <input type="text" class="form-control input-sm" name="forum_search" placeholder="{$SEARCH}">
-			  <input type="hidden" name="token" value="{$TOKEN}">
-			  <div class="input-group-append">
-			    <button class="btn btn-outline-secondary" type="submit"><i class="fa fa-search"></i></button>
-			  </div>
+		  <form role="form" method="post" action="{$SEARCH_URL}">
+		    <div class="form-group">
+					<div class="input-group">
+						<input type="hidden" name="token" value="{$TOKEN}">
+					</div>
+					<div class="input-group">
+			  		<input type="text" class="form-control" name="forum_search" placeholder="{$SEARCH}">
+						<div class="input-group-append">
+							<button type="submit" class="btn btn-secondary"><i class="fas fa-search"></i> {$SEARCH}</button>
+						</div>
+					</div>
 		    </div>
 		  </form>
 		  
