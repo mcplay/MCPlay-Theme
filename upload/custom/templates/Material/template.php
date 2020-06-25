@@ -43,7 +43,7 @@ class Material extends TemplateBase {
 
 		// Add any JS files here
 		$this->addJSFiles(array(
-			'https://code.jquery.com/jquery-3.3.1.min.js' => array('integrity' => 'sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=', 'crossorigin' => 'anonymous'),
+			'https://code.jquery.com/jquery-3.2.1.slim.min.js' => array('integrity' => 'sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN', 'crossorigin' => 'anonymous'),
 			'https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js' => array('integrity' => 'sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U', 'crossorigin' => 'anonymous'),
 			'https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js' => array('integrity' => 'sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9', 'crossorigin' => 'anonymous'),
 			(defined('CONFIG_PATH') ? CONFIG_PATH : '') . '/core/assets/plugins/toastr/toastr.min.js' => array(),
