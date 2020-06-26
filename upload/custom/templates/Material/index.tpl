@@ -46,8 +46,6 @@
 
 	  {if isset($NEWS)}
 	  <div class="col-md-9">
-	    <center><h2>{$LATEST_ANNOUNCEMENTS} <i class="fa fa-bullhorn"></i></h2></center>
-		<hr />
 		{foreach from=$NEWS item=item}
 		<div class="card">
 		  <div class="card-header">
@@ -71,8 +69,21 @@
 	  {else}
 	  <div class="col-md-3 offset-md-6">
 	  {/if}
+			<div class="card">
+	  		<div class="card-body">
+  	  		<h5 class="card-title">{$SOCIAL}</h5>
+    			<a href="https://twitter.com/MCPlayNetwork">
+						<i class="fab fa-twitter-square fa-3x social"></i></button>
+					</a>
+    			<a href="https://www.mcplay.biz/youtube/">
+						<i class="fab fa-youtube-square fa-3x social"></i></button>
+					</a>
+    			<a href="https://www.mcplay.biz/discord/">
+						<i class="fab fa-discord fa-3x social"></i></button>
+					</a>
+  			</div>
+			</div>
 
-	    <center><h2>{$SOCIAL} <i class="fa fa-users" aria-hidden="true"></i></h2></center>
 	    <hr />
 		{if count($WIDGETS)}
 		  {foreach from=$WIDGETS item=widget}
