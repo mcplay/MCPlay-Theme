@@ -38,7 +38,7 @@ class Material extends TemplateBase {
 			(defined('CONFIG_PATH') ? CONFIG_PATH : '') . '/core/assets/css/custom.css' => array(),
 			'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css' => array(),
 			(defined('CONFIG_PATH') ? CONFIG_PATH : '') . '/core/assets/plugins/toastr/toastr.min.css' => array(),
-			(defined('CONFIG_PATH') ? CONFIG_PATH : '') . '/custom/templates/Bootstrap Material/css/custom.css' => array()
+			(defined('CONFIG_PATH') ? CONFIG_PATH : '') . '/custom/templates/Material/css/custom.css' => array()
 		));
 
 		// Add any JS files here
