@@ -1,31 +1,10 @@
 {include file='header.tpl'}
 
-<div class="jumbotron home-header">
-  <div class="container">
+<div class="jumbotron jumbotron-fluid home-header">
 	{include file='navbar.tpl'}
-	<center>
-	  <br /><br /><br />
-	  <h1>{$SITE_NAME}</h1>
-
-	  {if isset($MINECRAFT)}
-		<hr />
-		{if isset($SERVER_QUERY)}
-		  {if isset($SERVER_QUERY.status_value) && $SERVER_QUERY.status_value == 1}
-			{if isset($SERVER_QUERY.status_full)}
-				<p class="lg">{$SERVER_QUERY.status_full}</p>
-			{else}
-			    <p class="lg">{$SERVER_QUERY.x_players_online}</p>
-			{/if}
-		  {else}
-		    <p class="lg">{$SERVER_OFFLINE}</p>
-		  {/if}
-		{/if}
-		{if isset($CLICK_TO_COPY_TOOLTIP)}
-		  <p class="lg"><span onclick="copyToClipboard('#ip')" data-toggle="tooltip" title="{$CLICK_TO_COPY_TOOLTIP}">{$CONNECT_WITH}</span></p>
-		{/if}
-	  {/if}
-	</center>
-
+  <div class="container text-center">
+	  <h4 class="display-4 text-white bg-dark">MCPlayNetwork</h4>
+		<p class="lead text-white bg-dark">Free Minecraft: Java Edition Multiplayer Server</p>
   </div>
 </div>
 
