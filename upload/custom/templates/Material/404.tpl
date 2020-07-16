@@ -36,7 +36,7 @@
 </head>
 
 <body>
-<br /><br /><br />
+<br><br><br>
 <div class="container">
   <center><h1>404</h1></center>
   <div class="row">
@@ -49,7 +49,7 @@
 			<button class="btn btn-primary btn-lg" onclick="javascript:history.go(-1)">{$BACK}</button>
 			<a href="{$SITE_HOME}" class="btn btn-success btn-lg">{$HOME}</a>
 		  </div>
-		  <hr />
+		  <hr>
 		  {$ERROR}
 		</center>
 	  </div>
