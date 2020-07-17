@@ -6,12 +6,12 @@
     <div class="card-body">
 	  <form action="" method="post">
 	    <h2>{$CONNECT_WITH_AUTHME}</h2>
-        <hr />
+        <hr>
 		
 		{if isset($ERRORS)}
 		  <div class="alert alert-danger">
 		    {foreach from=$ERRORS item=error}
-                {$error}<br />
+                {$error}<br>
 		    {/foreach}
 		  </div>
 		{/if}
@@ -38,19 +38,19 @@
         </div>
         {/if}
 
-        <hr />
+        <hr>
         {$AGREE_TO_TERMS}
-        <br />
+        <br>
 		<span class="button-checkbox">
 		  <button type="button" class="btn" data-color="info" tabindex="7"> {$I_AGREE}</button>
 		  <input type="checkbox" name="t_and_c" id="t_and_c" style="display:none;" value="1">
 		</span>
 
 
-        <br />
+        <br>
 
 	    <input type="hidden" name="token" value="{$TOKEN}">
-	    <br />
+	    <br>
 	    <input type="submit" value="{$SUBMIT}" class="btn btn-primary">
 	  </form>
 	</div>
