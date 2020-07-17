@@ -17,7 +17,7 @@
   </div>
 {/if}
 
-<br />
+<br>
 <footer>
   <div class="container">
     <div class="card">
@@ -61,7 +61,7 @@
 			
 			<li class="nav-item">
 			  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-				© {$SITE_NAME} {'Y'|date}
+				c {$SITE_NAME} {'Y'|date}
 			  </a>
 			  <div class="dropdown-menu" aria-labelledby="Preview">
 				<a class="dropdown-item" target="_blank" href="https://namelessmc.com/">Powered by NamelessMC</a>
