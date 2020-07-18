@@ -11,7 +11,7 @@
                     <div class="alert alert-danger" role="alert">
                         {foreach from=$ERRORS item=item name=err}
                             {$item}
-                            {if not $smarty.foreach.err.last}<br/>{/if}
+                            {if not $smarty.foreach.err.last}<br>{/if}
                         {/foreach}
                     </div>
                 {/if}
@@ -28,14 +28,14 @@
                            autocomplete="off" placeholder="{$CONFIRM_PASSWORD}" tabindex="2">
                 </div>
 
-                <hr />
+                <hr>
                 {$AGREE_TO_TERMS}
-                <br />
+                <br>
                 <span class="button-checkbox">
 				  <button type="button" class="btn" data-color="info" tabindex="7"> {$I_AGREE}</button>
 				  <input type="checkbox" name="t_and_c" id="t_and_c" style="display:none;" value="1">
 				</span>
-                <br /><br />
+                <br><br>
 
                 <div class="form-group">
                     <input type="hidden" name="token" value="{$TOKEN}">

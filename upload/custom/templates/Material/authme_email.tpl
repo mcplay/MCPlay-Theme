@@ -6,12 +6,12 @@
         <div class="card-body">
             <form action="" method="post">
                 <h2>{$CONNECT_WITH_AUTHME}</h2>
-                <hr />
+                <hr>
 
                 {if isset($ERRORS)}
                     <div class="alert alert-danger">
                         {foreach from=$ERRORS item=error}
-                            {$error}<br />
+                            {$error}<br>
                         {/foreach}
                     </div>
                 {/if}
