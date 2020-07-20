@@ -3,8 +3,8 @@
 <div class="jumbotron jumbotron-fluid home-header">
 	{include file='navbar.tpl'}
   <div class="container text-center">
-	  <h4 class="display-4 text-white bg-dark">MCPlayNetwork</h4>
-		<p class="lead text-white bg-dark">Free Minecraft: Java Edition Multiplayer Server</p>
+	  <h4 class="display-4 text-white">MCPlayNetwork</h4>
+		<p class="lead text-white">Free Minecraft: Java Edition Multiplayer Server</p>
   </div>
 </div>
 
