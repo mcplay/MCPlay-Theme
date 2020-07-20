@@ -22,8 +22,9 @@
 }
 
 .home-header {
-  background-image: url('../img/homepage_bg_trimmed.jpg');
-  min-height: 450px;
+  background-image: url('/uploads/template_banners/15edd1924e8a37_oqemhpjgkfiln.jpeg');
+  background-position: bottom;
+  min-height: 200px;
   background-size: cover;
 }
 
